@@ -1,10 +1,36 @@
 .card {
-  width: 380px;
-  height: 650px;
-  border: 2px solid lightblue;
-  display: inline-block;
-  margin: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+#jaguar {
+  margin: 20px 10px;
+  width: 30%;
+  height: auto;
+  border: 2px solid lightblue;
+}
+
+#jazzmaster {
+  margin: 20px 10px;
+  width: 30%;
+  height: auto;
+  border: 2px solid lightblue;
+}
+
+#mustang {
+  margin: 20px 10px;
+  width: 30%;
+  height: auto;
+  border: 2px solid lightblue;
+}
+
+#duo-sonic {
+  margin: 20px 10px;
+  width: 30%;
+  height: auto;
+  border: 2px solid lightblue;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
